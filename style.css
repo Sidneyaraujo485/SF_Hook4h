@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+
+*{
+    color: white;
+}
+header{
+    background-image: url('Fundo.png');  
+    margin-bottom: 50px;
+}
+#logo{
+    display: block;
+    margin: auto;
+}
+body{
+    background-image: url(Fundo.png);
+    /*background-color: black;*/
+}
+main{
+    background-color: rgb(0, 0, 0);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: 50px auto;
+    border: solid rgba(255, 255, 255, 0.103) 1px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 10px #f2a71d;
+}
+#principal{
+    font-size: 1.3em; 
+    margin: -2.9% auto -41px 13.1%;
+}
+#principal>a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.774);
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    transition-duration:  0.3s;
+}
+#principal>a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.719);
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+#sac{
+    width: 300px;
+    height: 300px;
+}
+#contato{
+    columns: 2;
+}
+#contato img{
+    width: 40px;
+    height: 40px;
+    margin: 10px 0px -30px -50px;
+}
+#contato a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.3em; 
+    transition-duration:  0.4s; 
+    position: relative;
+    left: 40%;
+}
+#contato a:hover{
+    color: #d9299bd5;
+}
+#contato li{
+    list-style: none;
+}
+input{
+    width: 400px;
+    height: 30px;
+}
+#ult{
+    padding: 0px;
+}
+#ult input, img{
+    display: block;
+    margin: auto;
+    color: black;
+}
+#est{
+    width: 250px;
+    height: 250px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+#ava{
+    font-size: 2em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 35%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#ava:hover{
+    color: #d9299bd5;
+}
+div{
+    padding: 0px;
+    margin: 200px auto;
+}
+h2{
+    text-align: center;
+    font-size: 2.5em;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.2em;
+}
+strong{
+    color: #d9299bd5;
+}
+.hor{
+    text-align: center;
+}
+#linha{
+    margin-top: 100px;
+}
+#fum{
+    background-image: url("fumaca.gif");
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+#fum>p{
+    text-align: center;
+    color: #F2A81D;
+}
+footer{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,7 @@
+Paleta de cores SF_Hookah
+
+Rosa - #D9299B
+Amarelo claro - #F2E7AC
+Amarelo - #F2C84B
+Amarelo alaranjado - #F2A81D
+Branco - #F2F2F2
