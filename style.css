@@ -54,7 +54,7 @@ h1{
 }
 #contato li{
     position: relative;
-    left: 1%;
+    left: -10%;
 }
 #contato img{
     margin: 20px 0px -30px -50px;
