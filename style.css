@@ -5,7 +5,7 @@
     color: white;
 }
 header{
-    background-image: url('Fundo.png');  
+    background-image: url('imagens/Fundo.png');  
     margin-bottom: 50px;
 }
 #logo{
@@ -13,7 +13,7 @@ header{
     margin: auto;
 }
 body{
-    background-image: url(Fundo.png);
+    background-image: url('imagens/Fundo.png');
     /*background-color: black;*/
 }
 main{
@@ -72,7 +72,7 @@ h1{
     list-style: none;
 }
 input{
-    width: 400px;
+    width: 40%;
     height: 30px;
 }
 #ult{
@@ -123,7 +123,7 @@ strong{
     margin-top: 100px;
 }
 #fum{
-    background-image: url("fumaca.gif");
+    background-image: url('imagens/fumaca.gif');
     background-repeat: no-repeat;
     background-size: 200%;
 }
