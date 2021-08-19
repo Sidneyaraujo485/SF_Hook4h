@@ -52,18 +52,21 @@ h1{
 #contato{
     columns: 2;
 }
+#contato li{
+    position: relative;
+    left: 1%;
+}
 #contato img{
-    width: 40px;
-    height: 40px;
-    margin: 10px 0px -30px -50px;
+    margin: 20px 0px -30px -50px;
 }
 #contato a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 1.3em; 
+    font-size: 80%; 
     transition-duration:  0.4s; 
     position: relative;
     left: 40%;
+    
 }
 #contato a:hover{
     color: #d9299bd5;
@@ -72,7 +75,7 @@ h1{
     list-style: none;
 }
 input{
-    min-width: 60%;
+    min-width: 80%;
     max-width: none;
     height: 30px;
 }
