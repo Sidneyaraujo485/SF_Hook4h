@@ -162,6 +162,9 @@ footer{
         font-size: 1.6em;
     }
     #contato{
-        columns: 2;
+        columns: 1;
+    }
+    footer{
+        font-size: .8em;
     }
 }
