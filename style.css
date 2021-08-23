@@ -14,7 +14,6 @@ header{
 }
 body{
     background-image: url('imagens/Fundo.png');
-    /*background-color: black;*/
 }
 main{
     background-color: rgb(0, 0, 0);
@@ -99,10 +98,8 @@ input{
 #ava{
     font-size: 2em;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin-left: 35%;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+    color: rgb(255, 255, 255);    
+    margin: 0% auto 0% 35%;
 }
 #ava:hover{
     color: #d9299bd5;
@@ -142,4 +139,24 @@ footer{
     color: black;
     font-weight: bold;
     text-align: center;
+}
+@media (max-width: 800px){
+    #ava{
+        margin-left: 20%;
+    }
+
+}
+@media (max-width: 550px){
+    #principal{
+        font-size: 1em; 
+        margin: -2.9% auto -48px 2%;
+    }
+    #principal>a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.774);
+        padding: 5px;
+        border-radius: 10px 10px 0px 0px;
+        transition-duration:  0.3s;
+    }
 }
