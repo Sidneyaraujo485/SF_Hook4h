@@ -163,6 +163,7 @@ footer{
     }
     #contato{
         columns: 1;
+        margin: 25% auto auto 5%;
     }
     footer{
         font-size: .8em;
