@@ -142,7 +142,8 @@ footer{
 }
 @media (max-width: 800px){
     #ava{
-        margin-left: 10%;
+        margin-left: 0px;
+        font-size: 1em;
     }
 
 }
@@ -158,5 +159,8 @@ footer{
         padding: 5px;
         border-radius: 10px 10px 0px 0px;
         transition-duration:  0.3s;
+    }
+    h1{
+        font-size: 1em;
     }
 }
